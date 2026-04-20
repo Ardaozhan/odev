@@ -3,10 +3,10 @@ function mesajGonder() {
     var mesaj = document.getElementById("mesaj") ? document.getElementById("mesaj").value : "";
 
     if (isim == "") {
-        alert("Lütfen isminizi girin be kardeşim!");
+        alert("Lütfen isminizi girin, tanışalım!");
     } else if (mesaj == "") {
-        alert("E hani mesaj? Bir şeyler yazsaydın keşke.");
+        alert("Mesajınızı yazmayı unuttunuz.");
     } else {
-        alert("Sağolasın " + isim + ", mesajını aldık. En kısa zamanda dükkana bekleriz!");
+        alert("Merhaba " + isim + ", mesajınız Atölye'ye ulaştı. En kısa sürede döneceğiz!");
     }
 }
