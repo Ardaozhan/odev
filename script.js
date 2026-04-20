@@ -1,7 +1,12 @@
-// Sayfalar açılınca konsola yazar
-console.log("Sitemiz sorunsuz çalışıyor.");
-
 function mesajGonder() {
-    // İletişim sayfasındaki butona basınca bu çıkacak
-    alert("Sistemde bir hata oldu galiba. Mesajınız gitmedi, en iyisi siz bizi telefondan arayın.");
+    var isim = document.getElementById("isim") ? document.getElementById("isim").value : "";
+    var mesaj = document.getElementById("mesaj") ? document.getElementById("mesaj").value : "";
+
+    if (isim == "") {
+        alert("Lütfen isminizi girin be kardeşim!");
+    } else if (mesaj == "") {
+        alert("E hani mesaj? Bir şeyler yazsaydın keşke.");
+    } else {
+        alert("Sağolasın " + isim + ", mesajını aldık. En kısa zamanda dükkana bekleriz!");
+    }
 }

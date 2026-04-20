@@ -1,12 +1,15 @@
 body {
-    background-color: wheat; 
-    font-family: Arial;
-    text-align: center; 
+    background-color: wheat;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 #ana-baslik {
     color: brown;
     text-decoration: underline;
+    margin-top: 30px;
 }
 
 .menu-alani {
@@ -14,8 +17,13 @@ body {
     padding: 15px;
 }
 
+ul {
+    padding: 0;
+    margin: 0;
+}
+
 ul li {
-    display: inline; 
+    display: inline;
     margin-right: 20px;
 }
 
@@ -23,17 +31,24 @@ a {
     color: white;
     font-size: 18px;
     font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: yellow;
 }
 
 img {
     border: 5px solid brown;
-    border-radius: 20px; 
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
 }
 
-/* Yeni eklenen tablo ayarları */
 table {
     background-color: bisque;
-    margin: auto; /* Ortalamak için internetten baktım */
+    margin: auto;
     border-collapse: collapse;
 }
 
@@ -48,9 +63,28 @@ td {
 }
 
 #siparis-butonu {
-    background-color: gray;
+    background-color: brown;
     color: white;
     font-size: 16px;
-    padding: 10px;
+    padding: 10px 20px;
     cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#siparis-butonu:hover {
+    background-color: saddlebrown;
+}
+
+.icerik {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+footer {
+    background-color: saddlebrown;
+    color: white;
+    padding: 15px;
+    margin-top: 50px;
 }

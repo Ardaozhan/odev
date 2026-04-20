@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Kahve Çeşitlerimiz</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="kahveler.css"> </head>
+</head>
+
 <body>
 
     <h1 id="ana-baslik">Neler Var Neler!</h1>
@@ -17,43 +19,57 @@
         </ul>
     </div>
 
-    <br>
+    <div class="icerik">
+        <table border="1" align="center" width="90%">
+            <tr>
+                <th>Görsel</th>
+                <th>Kahve Adı</th>
+                <th>Açıklama</th>
+                <th>Fiyatı</th>
+            </tr>
+            <tr>
+                <td><img src="https://images.unsplash.com/photo-1541167760496-1628856ab752?w=100" alt="Filtre Kahve"
+                        style="border:none; border-radius:0; width:80px;"></td>
+                <td>Filtre Kahve</td>
+                <td>Klasik ve sert, güne başlarken birebir.</td>
+                <td>50 TL</td>
+            </tr>
+            <tr>
+                <td><img src="https://images.unsplash.com/photo-1570968915860-54d5c301fa31?w=100" alt="Sütlü Kahve"
+                        style="border:none; border-radius:0; width:80px;"></td>
+                <td>Sütlü Kahve (Latte)</td>
+                <td>Yumuşak içimli, bol sütlü ve köpüklü.</td>
+                <td>65 TL</td>
+            </tr>
+            <tr>
+                <td><img src="https://images.unsplash.com/photo-1580661869408-0538a7c2e0b5?w=100" alt="Türk Kahvesi"
+                        style="border:none; border-radius:0; width:80px;"></td>
+                <td>Türk Kahvesi</td>
+                <td>Geleneksel lezzet, yanında lokumla.</td>
+                <td>40 TL</td>
+            </tr>
+            <tr>
+                <td><img src="https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?w=100" alt="Soğuk Kahve"
+                        style="border:none; border-radius:0; width:80px;"></td>
+                <td>Soğuk Kahve</td>
+                <td>Sıcak yaz günlerinde buz gibi ferahlık.</td>
+                <td>75 TL</td>
+            </tr>
+            <tr>
+                <td><img src="https://images.unsplash.com/photo-1544787210-2211d44b1c28?w=100" alt="Çay"
+                        style="border:none; border-radius:0; width:80px;"></td>
+                <td>Demleme Çay</td>
+                <td>Taze demlenmiş, tavşan kanı.</td>
+                <td>15 TL</td>
+            </tr>
+        </table>
+    </div>
 
-    <table border="1" align="center" width="80%" class="kahve-tablosu">
-        <tr>
-            <th>Görsel</th>
-            <th>Kahve Adı</th>
-            <th>Açıklama</th>
-            <th>Fiyatı</th>
-        </tr>
-        <tr>
-            <td class=" gorsel-cell"><img src="filtre_kahve.jpg" alt="Filtre Kahve"></td>
-            <td>Filtre Kahve</td>
-            <td>Klasik ve sert, güne başlarken birebir.</td>
-            <td>50 TL</td>
-        </tr>
-        <tr>
-            <td class="gorsel-cell"><img src="sutlu_kahve.jpg" alt="Sütlü Kahve"></td>
-            <td>Sütlü Kahve (Latte diyorlar)</td>
-            <td>Yumuşak içimli, bol sütlü ve köpüklü.</td>
-            <td>65 TL</td>
-        </tr>
-        <tr>
-            <td class="gorsel-cell"><img src="turk_kahvesi.jpg" alt="Türk Kahvesi"></td>
-            <td>Türk Kahvesi</td>
-            <td>Geleneksel lezzet, yanında lokumla.</td>
-            <td>40 TL</td>
-        </tr>
-        <tr>
-            <td class="gorsel-cell"><img src="cay.jpg" alt="Çay"></td>
-            <td>Çay (Kahve sevmeyenlere)</td>
-            <td>Taze demlenmiş, sıcak ve samimi.</td>
-            <td>15 TL</td>
-        </tr>
-    </table>
+    <footer>
+        <p>Afiyet olsun! Fiyatlarımıza KDV dahildir.</p>
+    </footer>
 
-    <br><br>
-    
     <script src="script.js"></script>
 </body>
+
 </html>

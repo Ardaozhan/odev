@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Bize Ulaşın</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 
     <h1 id="ana-baslik">İletişim Bilgileri</h1>
@@ -17,23 +19,31 @@
         </ul>
     </div>
 
-    <br>
+    <div class="icerik">
+        <h3>Adresimiz:</h3>
+        <p>Merkez Mahallesi, Atatürk Caddesi, No: 5<br>
+            (Eczanenin yanındaki mavi dükkan)</p>
 
-    <h3>Adresimiz:</h3>
-    <p>Merkez Mahallesi, Atatürk Caddesi, No: 5<br>
-    (Eczanenin yanındaki dükkan)</p>
+        <br>
 
-    <br>
+        <h3>Telefon:</h3>
+        <p>0555 123 45 67 (Lütfen gece aramayın, sabah 8 akşam 10 arası açığız)</p>
 
-    <h3>Telefon:</h3>
-    <p>0555 123 45 67 (Lütfen gece aramayın)</p>
+        <br>
 
-    <br>
-    
-    <button id="siparis-butonu" onclick="mesajGonder()">Bize Mesaj Atın</button>
+        <div style="background-color: bisque; padding: 20px; border: 1px solid brown; border-radius: 10px;">
+            <h4>Bize Mesaj Bırakın</h4>
+            İsim: <br><input type="text" id="isim" style="padding: 5px; width: 200px;"><br><br>
+            Mesajınız: <br><textarea id="mesaj" style="padding: 5px; width: 200px; height: 100px;"></textarea><br><br>
+            <button id="siparis-butonu" onclick="mesajGonder()">Mesajı Gönder</button>
+        </div>
+    </div>
 
-    <br><br>
+    <footer>
+        <p>Yolunuz düşerse her zaman bekleriz, kapımız açık.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
