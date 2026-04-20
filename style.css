@@ -1,0 +1,56 @@
+body {
+    background-color: wheat; 
+    font-family: Arial;
+    text-align: center; 
+}
+
+#ana-baslik {
+    color: brown;
+    text-decoration: underline;
+}
+
+.menu-alani {
+    background-color: saddlebrown;
+    padding: 15px;
+}
+
+ul li {
+    display: inline; 
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+img {
+    border: 5px solid brown;
+    border-radius: 20px; 
+}
+
+/* Yeni eklenen tablo ayarları */
+table {
+    background-color: bisque;
+    margin: auto; /* Ortalamak için internetten baktım */
+    border-collapse: collapse;
+}
+
+th {
+    background-color: burlywood;
+    color: black;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+#siparis-butonu {
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+}
