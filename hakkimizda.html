@@ -1,44 +1,85 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="tr">
 <head>
-    <title>Atolye Kahve Sivas - Hikayemiz</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atolye Kahve Sivas | Hakkımızda</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body class="page-about">
+    <div class="site-shell">
+        <header class="site-header" data-reveal="fade-down">
+            <a class="brand" href="index.html">
+                <span class="brand-mark">AK</span>
+                <span>
+                    <strong>Atolye Kahve</strong>
+                    <small>Sivas'ta butik kahve deneyimi</small>
+                </span>
+            </a>
 
-<body>
+            <nav class="menu-alani" aria-label="Ana menü">
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="kahveler.html">Kahveler</a></li>
+                    <li><a class="is-active" href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <h1 id="ana-baslik">Hakkımızda</h1>
+        <main>
+            <section class="page-intro" data-reveal="fade-up">
+                <p class="eyebrow">Hikayemiz</p>
+                <h1 id="ana-baslik">Şehrin ritmine sakin ama iddialı bir kahve alanı ekledik.</h1>
+                <p class="hero-text">
+                    Atolye Kahve, Sivas merkezde özenli kahveyi daha rafine bir atmosferle buluşturmak
+                    için kuruldu. Küçük ölçekte çalışıyoruz; bu yüzden servis ettiğimiz her ürünün arkasında
+                    daha fazla dikkat var.
+                </p>
+            </section>
 
-    <div class="menu-alani">
-        <ul>
-            <li><a href="index.html">Ana Sayfa</a></li>
-            <li><a href="kahveler.html">Kahveler</a></li>
-            <li><a href="hakkimizda.html">Biz kimiz</a></li>
-            <li><a href="iletisim.html">Bize Ulaşın</a></li>
-        </ul>
+            <section class="story-grid">
+                <article class="panel" data-reveal="fade-right">
+                    <p class="panel-kicker">Nasıl çalışıyoruz</p>
+                    <h2>Her çekirdeği aynı reçeteyle değil, kendi karakteriyle ele alıyoruz.</h2>
+                    <p>
+                        Öğütüm kalınlığı, su oranı ve servis sıcaklığı gibi detaylar fincanın dengesini
+                        doğrudan etkiliyor. Biz de bu detayları standart prosedür yerine yaşayan bir süreç
+                        olarak görüyoruz.
+                    </p>
+                </article>
+
+                <div class="image-card" data-reveal="fade-left">
+                    <img src="dukkan.png" alt="Atolye Kahve iç mekânı">
+                </div>
+            </section>
+
+            <section class="timeline" data-reveal="fade-up">
+                <div class="timeline-card">
+                    <span>01</span>
+                    <h3>Çekirdek Seçimi</h3>
+                    <p>Temiz içimli, belirgin aromalı ve farklı demlemelerde iyi sonuç veren profiller.</p>
+                </div>
+
+                <div class="timeline-card">
+                    <span>02</span>
+                    <h3>Demleme Disiplini</h3>
+                    <p>Barista hissiyatını veriyle birleştiren, tekrar edilebilir ama esnek reçeteler.</p>
+                </div>
+
+                <div class="timeline-card">
+                    <span>03</span>
+                    <h3>Mekân Deneyimi</h3>
+                    <p>Yoğun değil dengeli; hızlı değil ritmik bir servis akışı.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Atolye Kahve Sivas | Nitelikli kahveyi erişilebilir ve sıcak bir dille sunuyoruz.</p>
+        </footer>
     </div>
-
-    <div class="icerik">
-        <h2>Sivas'ta Bir 2026 Vizyonu</h2>
-        <p>Atolye Kahve olarak 2026 yılı baharında Sivas İstasyon Caddesi'nde kapılarımızı açtık. <br>
-            Amacımız, Sivaslı gardaşlarımıza dünyanın en kaliteli, "specialty" sınıfı kahvelerini ulaştırmak.</p>
-
-        <p>Her bir çekirdeğin hikayesini biliyor, onları en doğru yöntemlerle demliyoruz. <br>
-            Sivas'ın modernleşen çehresinde, 2026'nın en taze durağıyız!</p>
-
-        <marquee behavior="alternate" scrollamount="5"><b>2026'nın en yeni, en butik kahvecisi Sivas'ta
-                hizmetinizde!</b></marquee>
-
-        <br><br>
-        <img src="dukkan.png" alt="Atölyemiz" style="width: 400px;">
-    </div>
-
-    <footer>
-        <p>Atolye Kahve Sivas - 2026'dan beri nitelikli kahve.</p>
-    </footer>
 
     <script src="script.js"></script>
 </body>
-
 </html>

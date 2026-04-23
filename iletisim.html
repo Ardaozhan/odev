@@ -1,49 +1,84 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="tr">
 <head>
-    <title>Atolye Kahve Sivas - İletişim</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atolye Kahve Sivas | İletişim</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body class="page-contact">
+    <div class="site-shell">
+        <header class="site-header" data-reveal="fade-down">
+            <a class="brand" href="index.html">
+                <span class="brand-mark">AK</span>
+                <span>
+                    <strong>Atolye Kahve</strong>
+                    <small>Sivas'ta butik kahve deneyimi</small>
+                </span>
+            </a>
 
-<body>
+            <nav class="menu-alani" aria-label="Ana menü">
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="kahveler.html">Kahveler</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a class="is-active" href="iletisim.html">İletişim</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <h1 id="ana-baslik">Bize Ulaşın</h1>
+        <main>
+            <section class="page-intro" data-reveal="fade-up">
+                <p class="eyebrow">İletişim</p>
+                <h1 id="ana-baslik">Bir fincan kahve kadar yakın.</h1>
+                <p class="hero-text">
+                    Sipariş, rezervasyon ya da yalnızca merak ettiğiniz bir konu için bizimle
+                    iletişime geçebilirsiniz.
+                </p>
+            </section>
 
-    <div class="menu-alani">
-        <ul>
-            <li><a href="index.html">Ana Sayfa</a></li>
-            <li><a href="kahveler.html">Kahveler</a></li>
-            <li><a href="hakkimizda.html">Biz kimiz</a></li>
-            <li><a href="iletisim.html">Bize Ulaşın</a></li>
-        </ul>
+            <section class="contact-grid">
+                <article class="panel" data-reveal="fade-right">
+                    <p class="panel-kicker">Atölye bilgileri</p>
+                    <h2>Sivas Merkez, İstasyon Caddesi No: 58</h2>
+                    <p>Her gün taze öğütüm ve butik servis akışıyla misafirlerimizi ağırlıyoruz.</p>
+
+                    <div class="contact-list">
+                        <div>
+                            <span>Telefon</span>
+                            <strong>0346 123 45 67</strong>
+                        </div>
+                        <div>
+                            <span>WhatsApp</span>
+                            <strong>Hızlı bilgi ve sipariş desteği</strong>
+                        </div>
+                        <div>
+                            <span>Ziyaret</span>
+                            <strong>Günün sakin saatleri için öğleden önce önerilir</strong>
+                        </div>
+                    </div>
+                </article>
+
+                <section class="contact-card" data-reveal="fade-left">
+                    <h2>Mesaj Bırakın</h2>
+                    <p>Size daha hızlı dönüş yapabilmemiz için kısa bir not bırakın.</p>
+
+                    <label for="isim">İsim</label>
+                    <input type="text" id="isim" placeholder="Adınızı yazın">
+
+                    <label for="mesaj">Mesajınız</label>
+                    <textarea id="mesaj" placeholder="Nasıl yardımcı olabiliriz?"></textarea>
+
+                    <button id="siparis-butonu" type="button" onclick="mesajGonder()">Mesajı Gönder</button>
+                </section>
+            </section>
+        </main>
+
+        <footer>
+            <p>Atolye Kahve Sivas | İyi kahve, iyi iletişimle başlar.</p>
+        </footer>
     </div>
-
-    <div class="icerik">
-        <h3>Atölye Adresimiz:</h3>
-        <p>İstasyon Caddesi, No: 58<br>
-            Merkez / SİVAS</p>
-
-        <br>
-
-        <h3>Telefon & WhatsApp:</h3>
-        <p>0346 123 45 67 (Sipariş ve bilgi için yazabilirsiniz)</p>
-
-        <br>
-
-        <div style="background-color: bisque; padding: 20px; border: 1px solid brown; border-radius: 10px;">
-            <h4>Bir Mesaj Bırakın</h4>
-            İsim: <br><input type="text" id="isim" style="padding: 5px; width: 200px;"><br><br>
-            Mesajınız: <br><textarea id="mesaj" style="padding: 5px; width: 200px; height: 100px;"></textarea><br><br>
-            <button id="siparis-butonu" onclick="mesajGonder()">Mesajı Gönder</button>
-        </div>
-    </div>
-
-    <footer>
-        <p>Sivas'ta butik kahve için her zaman Atolye'ye bekleriz.</p>
-    </footer>
 
     <script src="script.js"></script>
 </body>
-
 </html>

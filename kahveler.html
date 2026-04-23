@@ -1,70 +1,100 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="tr">
 <head>
-    <title>Atolye Kahve Sivas - 2026 Menü</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atolye Kahve Sivas | Kahve Menüsü</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body class="page-menu">
+    <div class="site-shell">
+        <header class="site-header" data-reveal="fade-down">
+            <a class="brand" href="index.html">
+                <span class="brand-mark">AK</span>
+                <span>
+                    <strong>Atolye Kahve</strong>
+                    <small>Sivas'ta butik kahve deneyimi</small>
+                </span>
+            </a>
 
-<body>
+            <nav class="menu-alani" aria-label="Ana menü">
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a class="is-active" href="kahveler.html">Kahveler</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <h1 id="ana-baslik">2026 Lezzet Koleksiyonu</h1>
+        <main>
+            <section class="page-intro" data-reveal="fade-up">
+                <p class="eyebrow">Sezon menüsü</p>
+                <h1 id="ana-baslik">Karakterli tatlar, temiz reçeteler.</h1>
+                <p class="hero-text">
+                    Çekirdeğin stiline göre ayrılmış sıcak ve soğuk servislerden oluşan seçkimizi
+                    aşağıda bulabilirsiniz.
+                </p>
+            </section>
 
-    <div class="menu-alani">
-        <ul>
-            <li><a href="index.html">Ana Sayfa</a></li>
-            <li><a href="kahveler.html">Kahveler</a></li>
-            <li><a href="hakkimizda.html">Biz kimiz</a></li>
-            <li><a href="iletisim.html">Bize Ulaşın</a></li>
-        </ul>
+            <section class="menu-grid">
+                <article class="coffee-card" data-reveal="fade-up">
+                    <img src="v60.png" alt="V60 Pour Over">
+                    <div class="coffee-copy">
+                        <p class="coffee-type">Filtre Seri</p>
+                        <h2>V60 Specialty Pour Over</h2>
+                        <p>Tek köken çekirdeklerle hazırlanan, parlak asiditeli ve temiz finişli demleme.</p>
+                    </div>
+                    <strong class="price">215 TL</strong>
+                </article>
+
+                <article class="coffee-card" data-reveal="fade-up" data-delay="80">
+                    <img src="espresso.png" alt="Espresso">
+                    <div class="coffee-copy">
+                        <p class="coffee-type">Espresso Seri</p>
+                        <h2>Single Origin Espresso</h2>
+                        <p>Yoğun gövdeli, kısa ama etkili bir shot arayanlar için net profil.</p>
+                    </div>
+                    <strong class="price">195 TL</strong>
+                </article>
+
+                <article class="coffee-card" data-reveal="fade-up" data-delay="160">
+                    <img src="sutlu_kahve.jpg" alt="Flat White">
+                    <div class="coffee-copy">
+                        <p class="coffee-type">Sütlü Seri</p>
+                        <h2>Flat White / Oat Latte</h2>
+                        <p>Kadifemsi doku ve çift shot dengesiyle daha yumuşak ama güçlü bir içim.</p>
+                    </div>
+                    <strong class="price">205 TL</strong>
+                </article>
+
+                <article class="coffee-card" data-reveal="fade-up" data-delay="240">
+                    <img src="soguk_kahve.png" alt="Atolye İce Latte">
+                    <div class="coffee-copy">
+                        <p class="coffee-type">Soğuk Seri</p>
+                        <h2>Atolye İce Latte</h2>
+                        <p>Serin servis, sakin tatlılık ve günün sıcak saatlerine uygun yumuşak yapı.</p>
+                    </div>
+                    <strong class="price">225 TL</strong>
+                </article>
+
+                <article class="coffee-card" data-reveal="fade-up" data-delay="320">
+                    <img src="cay.jpg" alt="Özel demlenmiş çay">
+                    <div class="coffee-copy">
+                        <p class="coffee-type">Alternatif Demleme</p>
+                        <h2>Özel Demlenmiş Çay</h2>
+                        <p>Porselen demlikte servis edilen, aroması belirgin ve temiz içimli harman.</p>
+                    </div>
+                    <strong class="price">130 TL</strong>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <p>Fiyatlara KDV dahildir. Menü dönemsel olarak çekirdeğe göre güncellenebilir.</p>
+        </footer>
     </div>
-
-    <div class="icerik">
-        <table border="1" align="center" width="90%">
-            <tr>
-                <th>Görsel</th>
-                <th>Kahve Adı</th>
-                <th>Açıklama</th>
-                <th>Fiyatı</th>
-            </tr>
-            <tr>
-                <td><img src="v60.png" alt="V60 Pour Over" style="border:none; border-radius:0; width:80px;"></td>
-                <td>V60 Specialty Pour Over</td>
-                <td>Tek köken nitelikli çekirdeklerden özel demleme.</td>
-                <td>215 TL</td>
-            </tr>
-            <tr>
-                <td><img src="espresso.png" alt="Espresso" style="border:none; border-radius:0; width:80px;"></td>
-                <td>Single Origin Espresso</td>
-                <td>Yoğun, gövdeli ve 2026 hasadı taze shot.</td>
-                <td>195 TL</td>
-            </tr>
-            <tr>
-                <td><img src="sutlu_kahve.jpg" alt="Flat White" style="border:none; border-radius:0; width:80px;"></td>
-                <td>Flat White / Oat Latte</td>
-                <td>Kadifemsi süt dokusu ve çift shot espresso.</td>
-                <td>205 TL</td>
-            </tr>
-            <tr>
-                <td><img src="soguk_kahve.png" alt="Cold Brew" style="border:none; border-radius:0; width:80px;"></td>
-                <td>Atölye İce Latte</td>
-                <td>soğuk demlenmiş imza lezzetimiz.</td>
-                <td>225 TL</td>
-            </tr>
-            <tr>
-                <td><img src="cay.jpg" alt="Specialty Tea" style="border:none; border-radius:0; width:80px;"></td>
-                <td>Özel Demlenmiş Çay</td>
-                <td>En taze harman, porselen demlikte servis edilir.</td>
-                <td>130 TL</td>
-            </tr>
-        </table>
-    </div>
-
-    <footer>
-        <p>Atolye Kahve Sivas - 2026 Fiyat Listesi (KDV Dahildir)</p>
-    </footer>
 
     <script src="script.js"></script>
 </body>
-
 </html>
